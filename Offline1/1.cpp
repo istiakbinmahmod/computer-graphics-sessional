@@ -697,7 +697,7 @@ void init(){
 
 int main(int argc, char **argv){
 	glutInit(&argc,argv);
-	glutInitWindowSize(500, 500);
+	glutInitWindowSize(1000, 1000);
 	glutInitWindowPosition(0, 0);
 	glutInitDisplayMode(GLUT_DEPTH | GLUT_DOUBLE | GLUT_RGB);	//Depth, Double buffer, RGB color
 
